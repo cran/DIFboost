@@ -1,0 +1,19 @@
+export(DIFboost)
+
+exportClasses("DIFboost")
+
+
+S3method(print, DIFboost)
+
+
+importFrom(penalized, penalized)
+importFrom(mboost,gamboost)
+importFrom(mboost,stabsel.mboost)
+importFrom(mboost,Binomial)
+importFrom(mboost,boost_control)
+importFrom(mboost,bols)
+importFrom(mboost,bbs)
+importFrom(stabs,stabsel)
+importFrom("stats", "as.formula", "binomial", "coef", "glm.fit", "var")
+importFrom("utils", "head", "tail")
+

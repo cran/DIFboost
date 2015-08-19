@@ -1,0 +1,10 @@
+844b4efd765fe9cb4d7dc58e460f99ae *DESCRIPTION
+a9b970ebac4afc6216517192b8196c11 *NAMESPACE
+a4d9d26d5c8c274393fa730a21d2d06f *R/DIFboost-internal.R
+847f657bf4b9ebcf0312dd05255a5a63 *R/DIFboost.R
+842fba54f82f8b40877d82bea5a981bb *R/print.DIFboost.R
+2ff80e279410c1239785c28977f8d481 *data/simul.data.rda
+210974d2e7f7c9e3da8240599cbdd67d *man/DIFboost-package.Rd
+602fdc04a576fe8780a4fb076e5ba80e *man/DIFboost.Rd
+43c4a9005398352539e00b574d015e57 *man/print.DIFboost.Rd
+1cf11066dcb645e048c14076b9bc84c9 *man/simul.data.Rd
