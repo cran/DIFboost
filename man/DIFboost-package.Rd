@@ -16,7 +16,7 @@ Gunther Schauberger\cr
 \url{http://www.statistik.lmu.de/~schauberger/}
 }
 \references{
-Schauberger, Gunther and Tutz, Gerhard (2015): \emph{Detection of Differential Item Functioning in Rasch Models by Boosting Techniques}, British Journal of Mathematical and Statistical Psychology, published online
+Schauberger, Gunther and Tutz, Gerhard (2016): \emph{Detection of Differential Item Functioning in Rasch Models by Boosting Techniques}, British Journal of Mathematical and Statistical Psychology, 69(1), 80 - 103
 }
 \seealso{
 \code{\link{DIFboost}}, \code{\link{print.DIFboost}}

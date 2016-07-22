@@ -119,7 +119,7 @@ smp<-  sample(1:P,floor(P/2))
 # perform stability selection
 m2 <- stabsel(m1,q=q ,cutoff=cutoff, folds = folds, mc.cores=mc.cores)
 
-# extract selected base learners/items
+# extract selected base learners/items  
 selected <- as.numeric(which(apply(m2$phat,1,max)>cutoff))
 
 # extract selected columns from design matrix
@@ -150,7 +150,8 @@ form2 <- as.formula(paste("~ ",paste("V",1:ncol(design.matrix),sep="",collapse="
 m3 <- penalized(response=XP,unpenalized=form1,penalized=form2,lambda1=0,lambda2=0.0001,data=refit.data,model="logistic")
 
 # extract relevant estimates
-coefs <- coef(m3)
+#coefs <- coef(m3)
+coefs <- m3@penalized
 
 theta.hat <- head(coefs,P)
 beta.hat <- coefs[(P+1):(P + I - 1)]
