@@ -29,8 +29,8 @@ Schauberger, Gunther and Tutz, Gerhard (2016): \emph{Detection of Differential I
 }
 \author{
 Gunther Schauberger\cr
-\email{gunther@stat.uni-muenchen.de}\cr
-\url{http://www.statistik.lmu.de/~schauberger/}
+\email{gunther.schauberger@tum}\cr
+\url{https://www.sg.tum.de/epidemiologie/team/schauberger/}
 }
 
 \seealso{

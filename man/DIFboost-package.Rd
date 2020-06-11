@@ -12,8 +12,8 @@ The method assumes the DIFmodel from Tutz and Schauberger (2015) where boosting 
 }
 \author{
 Gunther Schauberger\cr
-\email{gunther@stat.uni-muenchen.de}\cr
-\url{http://www.statistik.lmu.de/~schauberger/}
+\email{gunther.schauberger@tum}\cr
+\url{https://www.sg.tum.de/epidemiologie/team/schauberger/}
 }
 \references{
 Schauberger, Gunther and Tutz, Gerhard (2016): \emph{Detection of Differential Item Functioning in Rasch Models by Boosting Techniques}, British Journal of Mathematical and Statistical Psychology, 69(1), 80 - 103

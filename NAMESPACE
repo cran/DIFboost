@@ -1,7 +1,5 @@
 export(DIFboost)
 
-exportClasses("DIFboost")
-
 
 S3method(print, DIFboost)
 
